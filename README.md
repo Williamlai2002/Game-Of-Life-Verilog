@@ -1,6 +1,6 @@
 This repository contains a hardware implementation of Conway's Game of Life, a popular cellular automaton, developed for the DE-10 FPGA platform using Verilog. The project leverages FPGA hardware and Python-based visualization to simulate and display the evolving grid in real time.
 
-**Overview
+Overview
 Conway's Game of Life is a grid-based simulation where each cell has two possible states: alive (1) or dead (0). The state of each cell in the next iteration depends on its current state and the number of live neighbors, according to these rules:
 
 A cell with fewer than 2 or more than 3 live neighbors dies (underpopulation/overpopulation).
