@@ -51,12 +51,13 @@ Deployment
 Program the FPGA with the Verilog file, run the Python script, and visualize the grid's evolution.
 
 ## Brief Desof each file
-JTAG_UART_MODULE.v
+# JTAG_UART_MODULE.v
 
 This file defines the Verilog implementation of the JTAG UART interface. It handles communication between the FPGA and an external Python visualization script, facilitating the transfer of grid data for real-time display.
-jtag_uart.qip
+
+# jtag_uart.qip
 
 A Quartus IP (Intellectual Property) file, which integrates the JTAG UART module into the FPGA design. It contains metadata and configuration information for properly including and connecting the JTAG UART interface in the project.
-lab4_task2.v
+# lab4_task2.v
 
 The top-level Verilog file for Lab 4, Task 2. It contains the Game of Life implementation, instantiates the JTAG UART module, and defines the clocking and control logic for the simulation. This module serves as the main entry point for synthesizing the design and running the Game of Life on the FPGA.
